@@ -15,7 +15,7 @@ window.addEventListener("load", function () {
 // End loader
 // Start Header
 $(".bars").click(function () {
-  $("header .container ul").toggleClass("toggle");
+  $("header .container ul").toggleClass("toggle1");
 });
 $(".sun").click(function () {
   $("body").toggleClass("body");
@@ -105,11 +105,11 @@ let skills = document.querySelector(".skills");
 
 window.onscroll = function () {
   if (window.scrollY >= skills.offsetTop - 450) {
-    span.forEach(e => {
-      e.style.width = e.attributes[0].nodeValue
-    })
+    span.forEach((e) => {
+      e.style.width = e.attributes[0].nodeValue;
+    });
   }
-}
+};
 
 var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
@@ -128,14 +128,13 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-
 let toggle = document.querySelector(".toggle");
 let menu = document.querySelector(".menu-2");
 toggle.onclick = function () {
   menu.classList.toggle("activee");
 };
 
-let myData = document.getElementById("myData")
-let data = new Date()
+let myData = document.getElementById("myData");
+let data = new Date();
 
-myData.innerHTML = data.getFullYear()
+myData.innerHTML = data.getFullYear();
