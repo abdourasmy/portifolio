@@ -569,6 +569,13 @@ header .container .logo a {
   .textOne h1 {
     font-size: 23px;
   }
+  .landing .container .text {
+    text-align: center;
+  }
+  .landing .container .text .links {
+    text-align: center;
+    width: 100%;
+  }
 }
 .myPro:nth-child(1) {
   filter: hue-rotate(27deg);
