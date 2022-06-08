@@ -520,7 +520,9 @@ header .container .logo a {
     height: 250px;
   }
   .landing .container img {
-    height: 86%;
+    top: 40px;
+    height: 77%;
+    left: 0px;
   }
   .landing .container .me .me-img {
     width: 385px;
