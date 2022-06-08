@@ -309,7 +309,7 @@ header .container .logo a {
   .to li:hover a {
     color: var(--option);
   }
-  .toggle {
+  .toggle1 {
     display: flex;
     position: absolute;
     width: 180px;
@@ -326,10 +326,10 @@ header .container .logo a {
     padding: 15px;
     text-align: center;
   }
-  .toggle li {
+  .toggle1 li {
     padding: 10px;
   }
-  .toggle li:not(:last-child) {
+  .toggle1 li:not(:last-child) {
     border-bottom: 2px solid #9a8d8d;
   }
 }
